@@ -2,6 +2,8 @@
 import Navbar from "./Navbar";
 import HeroSection from "./HeroSection";
 import ServicesSection from "./ServicesSection";
+import PortfolioSection from "./PortfolioSection";
+import AboutSection from "./AboutSection";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <div id="top" />
       <HeroSection />
       <ServicesSection />
+      <PortfolioSection />
+      <AboutSection />
     </div>
   );
 }
