@@ -22,7 +22,7 @@ export default function PortfolioSection() {
           {/* Card 2 */}
           <div className="rounded-xl overflow-hidden shadow-md bg-white flex flex-col">
             <div className="bg-[#a8937c] flex items-center justify-center h-56">
-              <Image src="/portfolio2.png" alt="Restaurant Social Media" width={140} height={90} style={{objectFit: "contain"}} />
+              <Image src="/restaurantMedia.jpg" alt="Restaurant Social Media" width={420} height={90} style={{objectFit: "contain"}} />
             </div>
             <div className="bg-white p-6 flex-1 flex flex-col justify-center">
               <h3 className="text-lg font-bold text-[#8b735b] font-serif mb-1">Restaurant Social Media</h3>
@@ -31,8 +31,8 @@ export default function PortfolioSection() {
           </div>
           {/* Card 3 */}
           <div className="rounded-xl overflow-hidden shadow-md bg-white flex flex-col">
-            <div className="bg-[#a8937c] flex items-center justify-center h-56">
-              <Image src="/portfolio3.png" alt="Real Estate Platform" width={140} height={90} style={{objectFit: "contain"}} />
+            <div className="bg-white flex items-center justify-center h-56">
+              <Image src="/realE.jpg" alt="Real Estate Platform" width={300} height={90} style={{objectFit: "contain"}} />
             </div>
             <div className="bg-white p-6 flex-1 flex flex-col justify-center">
               <h3 className="text-lg font-bold text-[#8b735b] font-serif mb-1">Real Estate Platform</h3>

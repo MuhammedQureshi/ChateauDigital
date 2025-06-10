@@ -1,6 +1,8 @@
+import Image from "next/image";
+
 export default function ServicesSection() {
   return (
-    <section id="services" className="bg-[#e5decc] py-[7rem] px-2 md:px-0">
+    <section id="services" className="bg-[#e5decc] py-16 px-2 md:px-0">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-center text-3xl md:text-4xl font-bold text-[#8b735b] font-serif mb-2">Our Services</h2>
         <p className="text-center text-[#a89888] text-lg mb-12 max-w-2xl mx-auto">
@@ -25,13 +27,7 @@ export default function ServicesSection() {
               </ul>
             </div>
             <div className="bg-[#ede6db] rounded-lg p-4 flex items-center justify-center mt-4">
-              {/* Web Design Illustration */}
-              <svg width="120" height="48" viewBox="0 0 120 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="8" y="12" width="104" height="24" rx="4" fill="#f5f2ea" stroke="#b49a78" strokeWidth="2"/>
-                <rect x="20" y="20" width="32" height="6" rx="2" fill="#b49a78"/>
-                <rect x="20" y="28" width="24" height="4" rx="2" fill="#b49a78"/>
-                <rect x="60" y="20" width="32" height="12" rx="2" fill="#d1c3b2"/>
-              </svg>
+              <Image className="rounded-lg" src="/webDesign.jpg" alt="Web Design Illustration" width={120} height={48} style={{objectFit: "contain"}} />
             </div>
           </div>
           {/* Social Media Card */}
@@ -52,13 +48,7 @@ export default function ServicesSection() {
               </ul>
             </div>
             <div className="bg-[#ede6db] rounded-lg p-4 flex items-center justify-center mt-4">
-              {/* Social Media Illustration */}
-              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="8" y="12" width="44" height="36" rx="6" fill="#f5f2ea" stroke="#b49a78" strokeWidth="2"/>
-                <rect x="16" y="24" width="28" height="8" rx="2" fill="#b49a78"/>
-                <rect x="16" y="36" width="20" height="4" rx="2" fill="#b49a78"/>
-                <circle cx="44" cy="40" r="4" fill="#d1c3b2"/>
-              </svg>
+              <Image src="/socialM.jpg" alt="Social Media Illustration" width={120} height={48} style={{objectFit: "contain"}} />
             </div>
           </div>
           {/* Digital Strategy Card */}
@@ -79,14 +69,7 @@ export default function ServicesSection() {
               </ul>
             </div>
             <div className="bg-[#ede6db] rounded-lg p-4 flex items-center justify-center mt-4">
-              {/* Digital Strategy Illustration */}
-              <svg width="120" height="48" viewBox="0 0 120 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="12" y="20" width="16" height="16" rx="3" fill="#d1c3b2"/>
-                <rect x="36" y="28" width="16" height="8" rx="2" fill="#b49a78"/>
-                <rect x="60" y="16" width="16" height="20" rx="3" fill="#b49a78"/>
-                <rect x="84" y="24" width="16" height="12" rx="3" fill="#d1c3b2"/>
-                <rect x="12" y="20" width="88" height="16" rx="3" stroke="#b49a78" strokeWidth="2"/>
-              </svg>
+              <Image src="/strategy.jpg" alt="Digital Strategy Illustration" width={120} height={48} style={{objectFit: "contain"}} />
             </div>
           </div>
         </div>
