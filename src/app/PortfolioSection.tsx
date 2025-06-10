@@ -11,8 +11,8 @@ export default function PortfolioSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* Card 1 */}
           <div className="rounded-xl overflow-hidden shadow-md bg-white flex flex-col">
-            <div className="bg-[#a8937c] flex items-center justify-center h-56">
-              <Image src="/portfolio1.png" alt="Luxury Boutique Website" width={140} height={90} style={{objectFit: "contain"}} />
+            <div className="bg-white flex items-center justify-center h-56">
+              <Image src="/boutique.jpeg" alt="Luxury Boutique Website" width={240} height={90} style={{objectFit: "fill"}} />
             </div>
             <div className="bg-white p-6 flex-1 flex flex-col justify-center">
               <h3 className="text-lg font-bold text-[#8b735b] font-serif mb-1">Luxury Boutique Website</h3>

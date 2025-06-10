@@ -5,6 +5,7 @@ import ServicesSection from "./ServicesSection";
 import PortfolioSection from "./PortfolioSection";
 import AboutSection from "./AboutSection";
 import TestimonialsSection from "./TestimonialsSection";
+import ContactSection from "./ContactSection";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <PortfolioSection />
       <AboutSection />
       <TestimonialsSection />
+      <ContactSection />
     </div>
   );
 }
