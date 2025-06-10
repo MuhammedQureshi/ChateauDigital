@@ -28,7 +28,7 @@ export default function Footer() {
       </div>
       <hr className="border-[#ede6db]/30 mb-4" />
       <div className="text-center text-[#ede6db] text-sm">
-        © 2023 Chateau Digital. All rights reserved.
+        © 2025 Chateau Digital. All rights reserved.
       </div>
     </footer>
   );
