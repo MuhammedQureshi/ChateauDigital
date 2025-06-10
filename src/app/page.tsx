@@ -6,6 +6,7 @@ import PortfolioSection from "./PortfolioSection";
 import AboutSection from "./AboutSection";
 import TestimonialsSection from "./TestimonialsSection";
 import ContactSection from "./ContactSection";
+import Footer from "./Footer";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <AboutSection />
       <TestimonialsSection />
       <ContactSection />
+      <Footer />
     </div>
   );
 }
